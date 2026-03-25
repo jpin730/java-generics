@@ -20,5 +20,8 @@ public class Main {
         Box<Integer> integerBox = new Box<>(0);
 
         System.out.println("integerBox = " + integerBox);
+
+        Utility.printItem("Hello World!");
+        Utility.printItem(10);
     }
 }
