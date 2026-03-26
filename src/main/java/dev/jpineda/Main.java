@@ -23,5 +23,8 @@ public class Main {
 
         Utility.printItem("Hello World!");
         Utility.printItem(10);
+
+        System.out.println(MathUtils.add(5, 10));
+        System.out.println(MathUtils.add(5.5, 10.5));
     }
 }
